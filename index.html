@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Gorjetas</title>
+    
+    <link rel="stylesheet" href="style.css"> 
+</head>
+
+<body>
+
+    <h1>Gorjetas</h1>
+
+    <div id="block">
+
+        <div id="calculator">
+
+            <label for="valor">Conta</label>
+            <input type="text" name="valor" id="valor" placeholder="0.00">
+            <br>
+            <label>Gorjeta %</label>
+
+            <span class="buttons">
+                <button class="bt-gorjeta">5%</button>
+                <button class="bt-gorjeta">10%</button>
+                <button class="bt-gorjeta">15%</button>
+                <button class="bt-gorjeta">20%</button>                
+            </span>
+            <br>
+            <label for="qtdPessoas">Quantas pessoas vão pagar?</label>
+            <input type="number" name="qtdPessoas" id="qtdPessoas" min="1">
+
+        </div>
+
+        <div id="resultado">
+
+            <span class="flexbox">
+                <p>Gorjeta <br> <span class="porPessoa">/Pessoa</span></p>
+                <p class="valorShow" id="gorjeta">0.00</p>
+            </span>
+
+            <span class="flexbox">
+                <p>Total<br> <span class="porPessoa">/Pessoa</span></p>
+                <p class="valorShow" id="total">0.00</p>
+            </span>
+
+            <button id="bt-Calcular">Calcular</button>
+
+        </div>
+
+    </div>
+
+    
+    <script src="app.js"></script>
+</body>
+
+</html>
