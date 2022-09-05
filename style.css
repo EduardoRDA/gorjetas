@@ -1,6 +1,7 @@
 body{
     font-family: 'Mulish';
-    font-style: normal;;
+    font-style: normal;
+    font-weight: bold;
     margin: 0;
     display: flex;
     flex-direction: column;
@@ -34,8 +35,8 @@ h1{
     display: flex;
     flex-direction: column;
     flex-grow: 1;
-    background-color: #00474B;
-    margin: 15px;
+    background-color: #01A7C2;
+    margin: 25px;
     border-radius: 10px;
 }
 
@@ -45,13 +46,13 @@ h1{
     align-content: center;
     color: #F5FFFF;
     padding: 20px 20px;
-    font-size: 12px;
+    font-size: 18px;
     font-weight: 400;
 }
 
 .porPessoa{
-    color: #659395;
-    font-size: 11px;
+    color: #F5FFFF;
+    font-size: 12px;
     font-weight: 400;
 }
 
@@ -68,19 +69,19 @@ p{
     margin-top: 40px;
     margin-bottom: 30px;
     text-transform: uppercase;
-    color: #00474B;
+    color: #01A7C2;
     font-weight: 700;
 }
 
 #bt-reset:hover{
-    background-color: #9FE8DF;
+    background-color: #01A7C2;
 }
 
 .valorShow{
-    color: #2DC0AB;
-    font-size: 28px;
-    font-weight: 700;
-    transform: translateY(-5px);
+    color: #f0f0f0;
+    font-size: 22px;
+    font-weight: bold;
+    
 }
 
 #calculator{
@@ -90,7 +91,7 @@ p{
     flex-grow: 1;
     max-width: 100%;
     margin: 20px;
-    color: #4b5b5c;
+    color: #000000;
     font-size: 12px;
 }
 
@@ -100,18 +101,12 @@ input{
     padding: 0.5rem 1rem;
     border-radius: 4px;
     text-align: right;
-    color: #01A7C2;
+    color: #000000;
     font-weight: 700;
 }
 
 input:focus{
-    outline-color: #8BDAD0;
-}
-
-#valor{
-    background-image: url('images/icon-dollar.svg');
-    background-repeat: no-repeat;
-    background-position: 10px 7px;
+    outline-color: #000000;
 }
 
 #qtdPessoas{
@@ -124,7 +119,7 @@ input:focus{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    /* border: 1px solid yellow; */
+   
 }
 
 .bt-gorjeta, #gorjetaUser{
@@ -143,7 +138,7 @@ input:focus{
 }
 
 .bt-gorjeta:hover{
-    background-color: #0E7182;
+    background-color: #01A7C2;
     color: #fff;
 }
 
@@ -152,7 +147,8 @@ input:focus{
 }
 
 button, input{
-    font-family: 'Space Mono', monospace;
+    font-family: 'mulish';
+    font-weight: bold;
 }
 
 button{
@@ -161,11 +157,11 @@ button{
 
 .active{
     background-color: #9FE8DF;
-    color: #00474B;
+    color: #01A7C2;
 }
 
 .desactive{
-    background-color: #0D686D;
+    background-color: #01A7C2;
 }
 
 .erro{
@@ -185,18 +181,18 @@ button{
     
     #block{
         flex-direction: column;
-        /* border: 1px solid red; */
+        
     }
 
     #calculator{
-        /* border: 1px solid black; */
+        
         max-width: 100%;
         margin: 20px 35px;
         
     }
 
     #resultado{
-        /* border: 1px solid yellow; */
+        
         margin: 20px 35px;
     }
 
@@ -233,14 +229,14 @@ button{
     }
 
     #calculator{
-        /* border: 1px solid black; */
+        
         max-width: 100%;
         margin: 20px 15px;
         
     }
 
     #resultado{
-        /* border: 1px solid yellow; */
+        
         margin: 20px 15px;
     }
 
